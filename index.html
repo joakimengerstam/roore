@@ -1,1 +1,186 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roore AB — Skräddarsydd automation för företag</title>
+    <meta name="description" content="Roore AB bygger bort repetitivt arbete i mindre och medelstora företag: fakturor, ordrar, mejl och bokföring som sköter sig själva. Deterministiskt där det går, AI där det gör nytta.">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%230F6A43'/%3E%3Ctext x='50' y='71' font-size='60' font-family='sans-serif' font-weight='700' text-anchor='middle' fill='white'%3ER%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
 
+<body>
+    <header class="site">
+        <div class="site-bar">
+            <a href="#top" class="logo">Roore<em>.</em></a>
+            <nav class="site-nav" aria-label="Sidnavigation">
+                <a href="#tjanster">Vad vi gör</a>
+                <a href="#arbetssatt">Arbetssätt</a>
+                <a href="#arbeten">Arbeten</a>
+                <a href="#kontakt">Kontakt</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="top">
+        <!-- Hero -->
+        <section class="hero">
+            <div class="wrap hero-grid">
+                <div>
+                    <p class="eyebrow">Roore AB · Stockholm</p>
+                    <h1>Det repetitiva kan sköta sig självt.</h1>
+                    <p class="lede">
+                        Vi bygger skräddarsydd automation för mindre och medelstora företag —
+                        fakturor, ordrar, mejl och bokföring som flyter utan handpåläggning.
+                    </p>
+                    <div class="cta-row">
+                        <a href="#kontakt" class="btn btn-primary">Berätta om ert flöde</a>
+                        <a href="#arbetssatt" class="btn btn-ghost">Så arbetar vi</a>
+                    </div>
+                </div>
+
+                <!-- Morgonloggen — signature -->
+                <div class="log-card" aria-label="Exempel: en morgon med automatiserade flöden">
+                    <p class="log-title">En vanlig morgon — innan någon loggat in</p>
+                    <ol>
+                        <li><span class="log-time">06:02</span><span><span class="log-ok">✓</span> kontoutdrag hämtat — 14 transaktioner</span></li>
+                        <li><span class="log-time">06:03</span><span><span class="log-ok">✓</span> 12 verifikationer bokförda</span></li>
+                        <li><span class="log-time">06:03</span><span><span class="log-flag">⚑</span> 2 flaggade för granskning</span></li>
+                        <li><span class="log-time">07:41</span><span><span class="log-ok">✓</span> leverantörsfaktura tolkad och konterad</span></li>
+                        <li><span class="log-time">08:15</span><span><span class="log-ok">✓</span> order registrerad i affärssystemet</span></li>
+                        <li><span class="log-time">08:16</span><span><span class="log-ok">✓</span> svarsutkast klart — väntar på godkännande</span></li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <!-- Vad vi automatiserar -->
+        <section class="block" id="tjanster">
+            <div class="wrap">
+                <h2>Vad vi automatiserar</h2>
+                <p class="intro">
+                    Det mesta som görs ofta, likadant och för hand går att bygga bort.
+                    Vi utgår från era faktiska arbetsflöden och de system ni redan har.
+                </p>
+                <div class="flows">
+                    <div class="flow">
+                        <h3>Fakturor &amp; bokföring</h3>
+                        <p>Tolkning, kontering och SIE-export till Fortnox, Visma eller Bokio. Avstämningar som gör sig själva.</p>
+                    </div>
+                    <div class="flow">
+                        <h3>Order &amp; offert</h3>
+                        <p>Registrering, beräkningar och bekräftelser — från mejl och webbformulär rakt in i affärssystemet.</p>
+                    </div>
+                    <div class="flow">
+                        <h3>Mejl &amp; ärenden</h3>
+                        <p>Inkommande post sorteras, sammanfattas och får färdiga svarsutkast. En människa godkänner innan något skickas.</p>
+                    </div>
+                    <div class="flow">
+                        <h3>Integrationer</h3>
+                        <p>Systemen ni redan har får prata med varandra: affärssystem, kassa, webbshop, bank.</p>
+                    </div>
+                    <div class="flow">
+                        <h3>Rapportering</h3>
+                        <p>Dagliga siffror sammanställda och skickade dit de ska — utan att någon klipper och klistrar.</p>
+                    </div>
+                    <div class="flow">
+                        <h3>AI-agenter</h3>
+                        <p>För ostrukturerat arbete — text, dokument, research — bygger vi agentsystem med tydliga kontroller och spårbarhet.</p>
+                    </div>
+                </div>
+                <p class="principle">
+                    <strong>Deterministiskt där det går, AI där det gör nytta.</strong>
+                    Regler och integrationer när svaret ska bli exakt likadant varje gång; språkmodeller
+                    när arbetet handlar om ostrukturerad text — alltid med en människa som godkänner.
+                </p>
+            </div>
+        </section>
+
+        <!-- Arbetssätt -->
+        <section class="block" id="arbetssatt">
+            <div class="wrap">
+                <h2>Så arbetar vi</h2>
+                <p class="intro">Litet första steg, snabb nytta, långsiktig relation.</p>
+                <div class="steps">
+                    <div class="step">
+                        <h3>Genomgång</h3>
+                        <p>60–90 minuter där vi kartlägger ert mest repetitiva flöde. Ni får en konkret bild:
+                        vad som går att automatisera, vad det sparar i tid och vad det kostar att bygga.</p>
+                    </div>
+                    <div class="step">
+                        <h3>Bygge till produktion</h3>
+                        <p>Ett avgränsat första system, byggt runt ert faktiska arbetsflöde — inte en demo.
+                        I drift, med era system, granskat av er.</p>
+                    </div>
+                    <div class="step">
+                        <h3>Förvaltning &amp; vidareutveckling</h3>
+                        <p>Systemet växer med verksamheten. Ni äger nyttan och vardagen — vi sköter tekniken
+                        och bygger vidare där det ger mest.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Utvalda arbeten -->
+        <section class="block" id="arbeten">
+            <div class="wrap">
+                <h2>Utvalda arbeten</h2>
+                <p class="intro">Bakgrunden är finansiell marknadsinfrastruktur — clearingsystem som hanterar
+                miljontals affärer per dag. Samma hantverk gäller här: system som går att lita på,
+                byggda för vardagens flöden.</p>
+                <div class="works">
+                    <div class="work">
+                        <p class="kicker">AI-agenter</p>
+                        <h3>Agentsystem för research &amp; orkestrering</h3>
+                        <p>Multiagentsystem byggt på Claude Agent SDK: agenter som delegerar, verifierar källor
+                        och levererar validerad, strukturerad data — med händelselogg och deterministiska reservvägar.</p>
+                        <div class="tags"><span class="tag">TypeScript</span><span class="tag">Claude Agent SDK</span><span class="tag">RAG</span></div>
+                    </div>
+                    <div class="work">
+                        <p class="kicker">Ekonomiflöden</p>
+                        <h3>Bokföring på autopilot</h3>
+                        <p>Kontoutdrag in, färdig bokföring ut: transaktioner tolkas, konteras enligt BAS-kontoplanen
+                        och exporteras som SIE-filer. Människan granskar — systemet gör grovjobbet.</p>
+                        <div class="tags"><span class="tag">BAS</span><span class="tag">SIE 4</span><span class="tag">Fortnox / Visma / Bokio</span></div>
+                    </div>
+                    <div class="work">
+                        <p class="kicker">Webbflöden</p>
+                        <h3>Webbuppgifter som kör sig själva</h3>
+                        <p>Återkommande webbarbete — datainhämtning, bokningar, rapportuttag — som sparade,
+                        återkörbara jobb med verifierade steg i en riktig webbläsare.</p>
+                        <div class="tags"><span class="tag">Playwright</span><span class="tag">Node.js</span><span class="tag">CDP</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Kontakt -->
+        <section class="block" id="kontakt">
+            <div class="wrap">
+                <h2>Kontakt</h2>
+                <p class="intro">
+                    Berätta om ert mest repetitiva arbetsmoment, så återkommer vi med hur det kan byggas bort —
+                    och vad det skulle spara.
+                </p>
+                <ul class="contact-lines">
+                    <li><span class="label">e-post</span><a href="mailto:joakim.engerstam@gmail.com">joakim.engerstam@gmail.com</a></li>
+                    <li><span class="label">linkedin</span><a href="https://linkedin.com/in/joakimengerstam" rel="noopener">linkedin.com/in/joakimengerstam</a></li>
+                    <li><span class="label">github</span><a href="https://github.com/joakimengerstam" rel="noopener">github.com/joakimengerstam</a></li>
+                </ul>
+                <a href="mailto:joakim.engerstam@gmail.com?subject=V%C3%A5rt%20mest%20repetitiva%20fl%C3%B6de" class="btn btn-primary">Skriv till oss</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site">
+        <div class="wrap">
+            <span>© 2026 Roore AB · Stockholm</span>
+            <span>Joakim Engerstam, systemutvecklare</span>
+        </div>
+    </footer>
+
+</body>
+</html>
