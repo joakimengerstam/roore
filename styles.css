@@ -375,7 +375,6 @@ nav.scrolled {
     background: var(--secondary);
     margin: 0 -2rem;
     padding: 5rem 2rem;
-    font-size: 0.8rem;
 }
 
 .contact-content {
@@ -394,6 +393,7 @@ nav.scrolled {
 .contact-item {
     background: var(--white);
     padding: 2rem;
+    font-size: 0.9rem;
     border-radius: 15px;
     box-shadow: var(--shadow);
     transition: all 0.3s ease;
