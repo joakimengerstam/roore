@@ -375,6 +375,7 @@ nav.scrolled {
     background: var(--secondary);
     margin: 0 -2rem;
     padding: 5rem 2rem;
+    font-size: 0.8rem;
 }
 
 .contact-content {
