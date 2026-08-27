@@ -3,20 +3,20 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://roore.se/</loc>
-    <lastmod>2026-08-24</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="sv" href="https://roore.se/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://roore.se/en/index.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://roore.se/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://roore.se/"/>
   </url>
   <url>
-    <loc>https://roore.se/en/index.html</loc>
-    <lastmod>2026-08-24</lastmod>
+    <loc>https://roore.se/en/</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="sv" href="https://roore.se/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://roore.se/en/index.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://roore.se/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://roore.se/"/>
   </url>
   <url>
