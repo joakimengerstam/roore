@@ -1,7 +1,7 @@
 /* ============================================================
    Roore AB — company page
    Palette: paper #F5F6F3 · ink #14201A · green #0F6A43 · amber #B4690E
-   Type: Bricolage Grotesque (display) · Public Sans (body) · IBM Plex Mono (utility)
+   Type: IBM Plex Sans (display) · Public Sans (body) · IBM Plex Mono (utility)
    ============================================================ */
 
 :root {
@@ -15,7 +15,7 @@
     --green-soft: #E4EFE7;
     --amber: #B4690E;
 
-    --font-display: "Bricolage Grotesque", "Public Sans", sans-serif;
+    --font-display: "IBM Plex Sans", "Public Sans", sans-serif;
     --font-body: "Public Sans", -apple-system, sans-serif;
     --font-mono: "IBM Plex Mono", ui-monospace, monospace;
 
