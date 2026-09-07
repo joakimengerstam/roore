@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Få bort jobbet som görs om och om igen. | Roore AB</title>
-    <meta name="description" content="Vi bygger så att fakturor, ordrar och mejl förbereds i systemen ni redan har. Ni godkänner innan det går vidare.">
+    <title>Automatisera order, faktura och bokföring | Roore AB</title>
+    <meta name="description" content="Roore bygger automatisering för order, fakturor, mejl och bokföring i Fortnox, Visma och Bokio. Underlaget förbereds, ni godkänner innan något går vidare.">
     <link rel="canonical" href="https://roore.se/">
     <link rel="alternate" hreflang="sv" href="https://roore.se/">
     <link rel="alternate" hreflang="en" href="https://roore.se/en/">
@@ -15,14 +15,14 @@
     <meta property="og:locale:alternate" content="en_US">
     <meta property="og:site_name" content="Roore AB">
     <meta property="og:title" content="Få bort jobbet som görs om och om igen. | Roore AB">
-    <meta property="og:description" content="Vi bygger så att fakturor, ordrar och mejl förbereds i systemen ni redan har. Ni godkänner innan det går vidare.">
+    <meta property="og:description" content="Automatisering för order, fakturor, mejl och bokföring i Fortnox, Visma och Bokio. Ni godkänner innan något går vidare.">
     <meta property="og:url" content="https://roore.se/">
     <meta property="og:image" content="https://roore.se/images/og.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Få bort jobbet som görs om och om igen. | Roore AB">
-    <meta name="twitter:description" content="Vi bygger så att fakturor, ordrar och mejl förbereds. Ni godkänner innan det går vidare.">
+    <meta name="twitter:description" content="Automatisering för order, fakturor, mejl och bokföring. Ni godkänner innan något går vidare.">
     <meta name="twitter:image" content="https://roore.se/images/og.png">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="icon" href="/favicon.ico" sizes="any">
@@ -56,10 +56,52 @@
       "name": "Roore AB",
       "url": "https://roore.se/",
       "image": "https://roore.se/images/og.png",
-      "description": "Joakim Engerstam på Roore AB bygger bort repetitiv order-, faktura- och mejlhantering i era system. Ni godkänner innan det går vidare.",
+      "description": "Joakim Engerstam på Roore AB automatiserar order, fakturor, mejl och bokföring i Fortnox, Visma eller Bokio. Ni godkänner innan det går vidare.",
       "areaServed": {
         "@type": "Country",
         "name": "Sweden"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Automatiserade flöden",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Leverantörsfakturor i Fortnox",
+              "description": "Tolkning och kontering av leverantörsfakturor. Ni godkänner innan något bokförs.",
+              "url": "https://roore.se/leverantorsfakturor-fortnox/"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Bokföring i Fortnox, Visma eller Bokio",
+              "description": "Kontoutdrag konteras enligt er kontoplan och exporteras som SIE. Ni granskar.",
+              "url": "https://roore.se/bokforing/"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Order från mejl",
+              "description": "Orderrader ur inkorgen läggs som utkast i affärssystemet. Ni godkänner.",
+              "url": "https://roore.se/order-fran-mejl/"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Mejl och ärenden",
+              "description": "Inkommande post sorteras, sammanfattas och får svarsutkast. Inget skickas utan er.",
+              "url": "https://roore.se/mejl-arenden/"
+            }
+          }
+        ]
       },
       "provider": {
         "@id": "https://roore.se/#organization"
@@ -83,7 +125,7 @@
     </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
 </head>
 
@@ -108,34 +150,79 @@
         <section class="hero">
             <div class="wrap hero-grid">
                 <div>
-                    <p class="eyebrow">Roore AB · Stockholm</p>
-                    <h1>Få bort jobbet som görs om och om igen.</h1>
+                    <h1>Få bort jobbet som görs <span class="repeat">om och om igen.</span></h1>
                     <p class="lede">
-                        Vi bygger så att fakturor, ordrar och mejl förbereds i systemen ni redan har.
+                        Vi bygger så att fakturor, ordrar, mejl och bokföring förbereds i systemen ni redan har.
                         Ni godkänner innan det går vidare.
                     </p>
                     <div class="cta-row">
                         <a href="mailto:joakim.engerstam@roore.se?subject=15%20minuter" class="btn btn-primary">Boka 15 minuter</a>
                         <a href="/pilot/" class="btn btn-ghost">Ett flöde först</a>
                     </div>
-                    <div class="tags" style="margin-top:1.25rem">
-                        <span class="tag">Era system</span>
-                        <span class="tag">Ni godkänner</span>
-                        <span class="tag">Ett flöde i taget</span>
-                    </div>
+                    <ul class="assurances">
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg>Era befintliga system</li>
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg>Ni godkänner</li>
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg>Ett flöde i taget</li>
+                    </ul>
                 </div>
 
-                <div class="log-card" aria-label="Dagens underlag">
-                    <p class="log-title">Dagens underlag · Aktivt</p>
-                    <ol>
-                        <li><span class="log-time">06:02</span><span><span class="log-ok">✓</span> kontoutdrag hämtat — 14 transaktioner</span></li>
-                        <li><span class="log-time">06:03</span><span><span class="log-ok">✓</span> 12 verifikationer klara att godkänna</span></li>
-                        <li><span class="log-time">06:03</span><span><span class="log-flag">⚑</span> 2 flaggade för granskning</span></li>
-                        <li><span class="log-time">07:41</span><span><span class="log-ok">✓</span> leverantörsfaktura tolkad och konterad</span></li>
-                        <li><span class="log-time">08:15</span><span><span class="log-ok">✓</span> orderutkast i affärssystemet — väntar på ert ja</span></li>
-                        <li><span class="log-time">08:16</span><span><span class="log-ok">✓</span> svarsutkast klart — skickas inte utan er</span></li>
-                    </ol>
-                    <p class="principle" style="margin:1rem 0 0;font-size:0.9rem">Nästa steg: ert godkännande. Inget bokförs eller skickas utan er.</p>
+                <div class="log-col">
+                    <div class="log-card" aria-label="Dagens underlag">
+                        <p class="log-head">
+                            <span class="log-heading">
+                                <span class="log-kicker">Pågående flöde</span>
+                                <span class="log-name">Dagens underlag</span>
+                            </span>
+                            <span class="log-status">Aktivt</span>
+                        </p>
+                        <ol class="log-rows">
+                            <li>
+                                <span class="log-time">06:02</span>
+                                <span class="log-mark log-ok" aria-hidden="true">&#10003;</span>
+                                <span class="log-entry">
+                                    <span class="log-event">Kontoutdrag hämtat</span>
+                                    <span class="log-detail">14 transaktioner</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="log-time">06:03</span>
+                                <span class="log-mark log-ok" aria-hidden="true">&#10003;</span>
+                                <span class="log-entry">
+                                    <span class="log-event">Verifikationer klara</span>
+                                    <span class="log-detail">12 att godkänna</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="log-time">06:03</span>
+                                <span class="log-mark log-flag" aria-hidden="true">!</span>
+                                <span class="log-entry">
+                                    <span class="log-event">Flaggat för granskning</span>
+                                    <span class="log-detail">2 poster</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="log-time">07:41</span>
+                                <span class="log-mark log-ok" aria-hidden="true">&#10003;</span>
+                                <span class="log-entry">
+                                    <span class="log-event">Leverantörsfaktura tolkad</span>
+                                    <span class="log-detail">Kontering föreslagen</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="log-time">08:15</span>
+                                <span class="log-mark log-open" aria-hidden="true"></span>
+                                <span class="log-entry">
+                                    <span class="log-event">Orderutkast skapat</span>
+                                    <span class="log-detail">Väntar på ert ja</span>
+                                </span>
+                            </li>
+                        </ol>
+                        <p class="log-pending">
+                            <span>Nästa steg</span>
+                            <span class="pending-state">Ert godkännande<svg class="pending-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+                        </p>
+                    </div>
+                    <p class="log-note">Inget skickas utan er</p>
                 </div>
             </div>
         </section>
@@ -145,32 +232,33 @@
             <div class="wrap">
                 <h2>Från handpåläggning till färdigt underlag.</h2>
                 <p class="intro">
-                    Vi utgår från hur ni faktiskt arbetar. Inte en ny plattform.
-                    Bättre flöden i Fortnox, Visma, Bokio eller affärssystemet ni har.
+                    Vi utgår från hur ni faktiskt arbetar. Inte en ny plattform, utan automatisering
+                    i Fortnox, Visma, Bokio eller affärssystemet ni redan har.
+                    Vi kallar det <a href="/ai-medarbetare/">digitala medarbetare</a>: de förbereder underlaget, ni godkänner.
                 </p>
                 <div class="flows">
                     <div class="flow">
-                        <h3>Fakturor &amp; bokföring</h3>
-                        <p>Tolkning, kontering, SIE-export. Ni granskar innan något bokförs. <a href="/leverantorsfakturor-fortnox/">Leverantörsfakturor i Fortnox</a>. <a href="/bokforing/">Bokföring i era system</a>.</p>
+                        <h3>Leverantörsfakturor och bokföring</h3>
+                        <p>Automatisk tolkning och kontering, med SIE-export till Fortnox, Visma eller Bokio. Ni granskar innan något bokförs. <a href="/leverantorsfakturor-fortnox/">Leverantörsfakturor i Fortnox</a>. <a href="/bokforing/">Bokföring i era system</a>.</p>
                     </div>
                     <div class="flow">
-                        <h3>Order &amp; offert</h3>
-                        <p>Orderrader från mejl eller formulär till utkast i affärssystemet. <a href="/order-fran-mejl/">Order från mejl</a>.</p>
+                        <h3>Orderregistrering och offert</h3>
+                        <p>Orderrader från mejl eller webbformulär blir utkast i affärssystemet, med bekräftelser. <a href="/order-fran-mejl/">Order från mejl</a>.</p>
                     </div>
                     <div class="flow">
-                        <h3>Mejl &amp; ärenden</h3>
-                        <p>Sortering, sammanfattning, svarsutkast. Inget skickas utan er. <a href="/mejl-arenden/">Mejl och ärenden</a>.</p>
+                        <h3>Mejl och ärendehantering</h3>
+                        <p>Inkommande mejl sorteras och sammanfattas, med färdiga svarsutkast. Inget skickas utan er. <a href="/mejl-arenden/">Mejl och ärenden</a>.</p>
                     </div>
                     <div class="flow">
                         <h3>Integrationer</h3>
-                        <p>Affärssystem, kassa, webbshop, bank. Mindre manuell flytt.</p>
+                        <p>Affärssystem, kassa, webbshop och bank kopplas ihop, så informationen slipper flyttas för hand.</p>
                     </div>
                     <div class="flow">
                         <h3>Rapportering</h3>
-                        <p>Dagliga siffror sammanställs och skickas dit de ska.</p>
+                        <p>Dagliga siffror sammanställs och skickas dit de ska, utan klipp och klistra.</p>
                     </div>
                     <div class="flow">
-                        <h3>Text &amp; dokument</h3>
+                        <h3>Text och dokument</h3>
                         <p>När underlaget är text, inte blankett: utkast, sedan ert ja.</p>
                     </div>
                 </div>
@@ -182,7 +270,7 @@
         </section>
 
         <!-- För vem -->
-        <section class="block" id="for-vem">
+        <section class="block band" id="for-vem">
             <div class="wrap">
                 <h2>För team där administrationen har blivit ett eget jobb.</h2>
                 <div class="flows">
@@ -213,7 +301,7 @@
                 <div class="steps">
                     <div class="step">
                         <h3>15 minuter</h3>
-                        <p>Vi tittar på ett order-, faktura- eller mejlflöde. Finns det ett första jobb, tar vi det.</p>
+                        <p>Vi tittar på ett order-, faktura- eller mejlflöde och pekar ut det första jobbet.</p>
                     </div>
                     <div class="step">
                         <h3>Ett flöde i drift</h3>
@@ -221,7 +309,7 @@
                     </div>
                     <div class="step">
                         <h3>Veckosiffror, sen nästa</h3>
-                        <p>Ni får siffror på ärenden, tid och kronor. Fungerar det tar vi nästa flöde. Annars stannar det där.</p>
+                        <p>Ni får siffror på ärenden, tid och kronor. Sedan bestämmer ni vilket flöde som står på tur.</p>
                     </div>
                 </div>
             </div>
@@ -246,13 +334,9 @@
                     </div>
                     <div class="flow">
                         <h3>Veckosiffror</h3>
-                        <p>Ärenden, tid, kronor — så ni ser vad som faktiskt körs.</p>
+                        <p>Ärenden, tid och kronor, så ni ser vad som faktiskt körs.</p>
                     </div>
                 </div>
-                <p class="principle">
-                    <strong>Fungerar det tar vi nästa flöde.</strong>
-                    Annars stannar det där.
-                </p>
                 <div class="cta-row">
                     <a href="mailto:joakim.engerstam@roore.se?subject=15%20minuter" class="btn btn-primary">Boka 15 minuter</a>
                     <a href="/pilot/" class="btn btn-ghost">Så sätts flödet upp</a>
@@ -269,7 +353,7 @@
                     <div class="work">
                         <p class="kicker">Fakturor</p>
                         <h3>Leverantörsfakturor in i Fortnox</h3>
-                        <p>Fakturan tolkas och konteras. Ni godkänner innan den bokförs. <a href="/leverantorsfakturor-fortnox/">Så ser det ut</a>.</p>
+                        <p>Fakturan tolkas och konteras. Ni godkänner innan den bokförs. <a href="/leverantorsfakturor-fortnox/">Leverantörsfakturor i Fortnox</a>.</p>
                         <div class="tags"><span class="tag">Fortnox</span><span class="tag">Visma</span><span class="tag">Bokio</span></div>
                     </div>
                     <div class="work">
@@ -299,21 +383,20 @@
             <div class="wrap">
                 <h2>Kontakt</h2>
                 <p class="intro">
-                    Femton minuter räcker för att se om det finns ett första flöde att bygga.
+                    Femton minuter räcker för att hitta det första flödet.
                 </p>
                 <ul class="contact-lines">
                     <li><span class="label">e-post</span><a href="mailto:joakim.engerstam@roore.se">joakim.engerstam@roore.se</a></li>
-                    <li><span class="label">github</span><a href="https://github.com/joakimengerstam" rel="noopener">github.com/joakimengerstam</a></li>
                 </ul>
-                <a href="mailto:joakim.engerstam@roore.se?subject=15%20minuter" class="btn btn-primary">15 minuter</a>
+                <a href="mailto:joakim.engerstam@roore.se?subject=15%20minuter" class="btn btn-primary">Boka 15 minuter</a>
             </div>
         </section>
     </main>
 
     <footer class="site">
         <div class="wrap">
-            <span>© 2026 Roore AB · Sibyllegatan 11 A, 114 42 Stockholm</span>
-            <span><a href="/om/">Om Roore</a> · Joakim Engerstam</span>
+            <span>© 2026 Roore AB, Sibyllegatan 11 A, 114 42 Stockholm</span>
+            <span><a href="/om/">Om Roore</a>, Joakim Engerstam</span>
         </div>
     </footer>
 
