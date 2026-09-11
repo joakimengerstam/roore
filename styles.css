@@ -125,6 +125,22 @@ nav.site-nav a:hover { color: var(--green-deep); text-decoration: underline; }
     margin-bottom: 0.9rem;
 }
 
+/* breadcrumb. takes the .eyebrow slot on the five pages whose eyebrow was only a
+   category label, so the hero still carries exactly one small label above the h1.
+   labels match the BreadcrumbList names in each page's JSON-LD, word for word. */
+.crumbs {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 0.9rem;
+}
+.crumbs a { color: var(--green); text-decoration: none; }
+.crumbs a:hover { color: var(--green-deep); text-decoration: underline; }
+.crumbs span { color: var(--muted); }
+
 .hero h1 {
     font-size: clamp(2.4rem, 5.8vw, 4.4rem);
     font-weight: 700;
